@@ -1,4 +1,5 @@
 import About from "./components/About";
+import BookAppointment from "./components/BookAppointment";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -12,6 +13,7 @@ export default function App() {
       <Services />
       <About />
       <Tips />
+      <BookAppointment />
     </div>
   );
 }
